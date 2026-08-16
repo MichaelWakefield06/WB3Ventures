@@ -1,389 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GNQ1ZYRF9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-8GNQ1ZYRF9');
-</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GNQ1ZYRF9');</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WB3 Ventures — Websites &amp; Local SEO for Small Businesses</title>
+<title>Web Design &amp; Local SEO in Greenville, SC | WB3 Ventures</title>
+<meta name="description" content="Custom websites, Google Business Profile setup, and local SEO for small businesses in Greenville, SC and the Upstate. Built before you pay — if you don't like it, you owe nothing.">
+<link rel="canonical" href="https://wb3ventures.com/">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23124A40'/><text x='32' y='45' font-family='Arial,sans-serif' font-size='38' font-weight='bold' fill='white' text-anchor='middle'>W</text></svg>">
-<meta name="description" content="Custom websites, Google Business Profile setup, and local SEO for small businesses. Built before you pay. You own your domain.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#16211D;
-    --pine:#124A40;
-    --pine-deep:#0D372F;
-    --paper:#F3F5F2;
-    --card:#FFFFFF;
-    --amber:#E39A2C;
-    --amber-deep:#C0801C;
-    --sage:#7D998C;
-    --line:#DBE2DC;
-    --muted:#566A61;
-    --ok:#38B27A;
-    --display:"Inter",system-ui,sans-serif;
-    --body:"Inter",system-ui,sans-serif;
-    --mono:"IBM Plex Mono",ui-monospace,monospace;
-    --wrap:1140px;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{
-    font-family:var(--body);
-    color:var(--ink);
-    background:var(--paper);
-    line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-    overflow-x:hidden;
-  }
-  a{color:inherit;text-decoration:none}
-  img{max-width:100%;display:block}
-
-  .wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 28px}
-
-  .eyebrow{
-    font-family:var(--mono);
-    font-size:.72rem;
-    letter-spacing:.14em;
-    text-transform:uppercase;
-    color:var(--muted);
-    display:inline-flex;
-    align-items:center;
-    gap:9px;
-  }
-  .eyebrow::before{
-    content:"";
-    width:7px;height:7px;border-radius:50%;
-    background:var(--ok);
-    box-shadow:0 0 0 3px rgba(56,178,122,.16);
-    flex:none;
-  }
-  .eyebrow.amber::before{background:var(--amber);box-shadow:0 0 0 3px rgba(227,154,44,.16)}
-  .eyebrow.pale{color:rgba(255,255,255,.62)}
-
-  h1,h2,h3{font-family:var(--display);line-height:1.05;letter-spacing:-.02em;font-weight:700}
-  h2{font-size:clamp(1.9rem,4vw,2.9rem);font-weight:700}
-  .lede{font-size:1.12rem;color:var(--muted);max-width:56ch}
-
-  .btn{
-    display:inline-flex;align-items:center;gap:9px;
-    font-family:var(--body);font-weight:600;font-size:.98rem;
-    padding:14px 24px;border-radius:11px;
-    cursor:pointer;border:1.5px solid transparent;
-    transition:transform .16s ease,box-shadow .16s ease,background .16s ease;
-  }
-  .btn-amber{background:var(--amber);color:var(--ink);box-shadow:0 1px 0 var(--amber-deep)}
-  .btn-amber:hover{transform:translateY(-2px);box-shadow:0 8px 22px -8px rgba(227,154,44,.7)}
-  .btn-ghost{border-color:var(--line);color:var(--ink);background:transparent}
-  .btn-ghost:hover{border-color:var(--pine);color:var(--pine)}
-  .btn-pale{border-color:rgba(255,255,255,.28);color:#fff}
-  .btn-pale:hover{background:rgba(255,255,255,.08)}
-  .btn .arw{transition:transform .16s ease}
-  .btn:hover .arw{transform:translateX(3px)}
-
-  /* ---------- header ---------- */
-  header{
-    position:sticky;top:0;z-index:50;
-    background:rgba(243,245,242,.82);
-    backdrop-filter:saturate(140%) blur(12px);
-    border-bottom:1px solid var(--line);
-  }
-  .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
-  .brand{display:flex;align-items:center;gap:11px;font-family:var(--display);font-weight:800;font-size:1.15rem;letter-spacing:-.02em}
-  .mark{
-    width:34px;height:34px;border-radius:9px;flex:none;
-    background:var(--pine);color:#fff;
-    display:grid;place-items:center;
-    font-family:var(--display);font-weight:800;font-size:.82rem;letter-spacing:.02em;
-    box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
-  }
-  .navlinks{display:flex;align-items:center;gap:30px}
-  .navlinks a.lnk{font-size:.94rem;color:var(--muted);font-weight:500;transition:color .15s}
-  .navlinks a.lnk:hover{color:var(--ink)}
-  .navtoggle{display:none;background:none;border:1px solid var(--line);border-radius:9px;padding:8px 10px;cursor:pointer}
-  .navtoggle span{display:block;width:20px;height:2px;background:var(--ink);margin:4px 0;border-radius:2px}
-
-  /* ---------- hero ---------- */
-  .hero{position:relative;color:#fff;padding:58px 0 100px;overflow:hidden;isolation:isolate}
-  .hero-bg{
-    position:absolute;inset:0;z-index:-1;
-    background:
-      linear-gradient(102deg,rgba(9,38,32,.93) 0%,rgba(11,44,37,.8) 46%,rgba(13,55,47,.56) 100%),
-      url('https://images.unsplash.com/photo-1754548930550-be9fa88874f4?auto=format&fit=crop&w=1920&q=70') center/cover no-repeat;
-  }
-  .hero-bg::after{
-    content:"";position:absolute;inset:0;
-    background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);
-    background-size:24px 24px;opacity:.26;
-  }
-  .hero-inner{max-width:760px;position:relative}
-  .hero .eyebrow{color:rgba(255,255,255,.78)}
-  .hero .eyebrow.amber::before{background:var(--amber);box-shadow:0 0 0 3px rgba(227,154,44,.22)}
-  .hero h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:800;line-height:1.02;letter-spacing:-.03em;margin:22px 0 22px}
-  .hero h1 em{font-style:normal;color:var(--amber)}
-  .hero .lede{color:rgba(255,255,255,.86);margin-bottom:30px;max-width:56ch}
-  .hero .microtrust span{color:rgba(255,255,255,.78)}
-  .hero .microtrust span::before{background:var(--amber)}
-  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-  .microtrust{margin-top:26px;display:flex;flex-wrap:wrap;gap:18px}
-  .microtrust span{font-family:var(--mono);font-size:.75rem;color:var(--muted);display:inline-flex;align-items:center;gap:7px}
-  .microtrust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--pine)}
-
-  /* signature: local-search card */
-  .searchcard{
-    background:var(--card);border:1px solid var(--line);border-radius:18px;
-    box-shadow:0 30px 60px -34px rgba(18,74,64,.42);
-    padding:18px;position:relative;overflow:hidden;
-  }
-  .searchcard::before{
-    content:"";position:absolute;inset:0 0 auto 0;height:74px;
-    background:linear-gradient(180deg,rgba(18,74,64,.06),transparent);
-  }
-  .sc-bar{
-    display:flex;align-items:center;gap:9px;background:var(--paper);
-    border:1px solid var(--line);border-radius:10px;padding:10px 13px;position:relative;
-    font-family:var(--mono);font-size:.8rem;color:var(--muted);
-  }
-  .sc-bar svg{flex:none}
-  .sc-label{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);margin:16px 4px 10px}
-  .result{
-    display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;
-    border:1px solid transparent;transition:.2s;
-  }
-  .result .pin{width:30px;height:30px;border-radius:8px;flex:none;display:grid;place-items:center;font-family:var(--mono);font-size:.82rem;font-weight:500;background:var(--paper);color:var(--muted);border:1px solid var(--line)}
-  .result .who{flex:1;min-width:0}
-  .result .who b{font-family:var(--body);font-weight:600;font-size:.92rem;display:block;color:var(--ink)}
-  .result .who small{color:var(--sage);font-size:.76rem;font-family:var(--mono)}
-  .result.you{
-    background:linear-gradient(90deg,rgba(227,154,44,.13),rgba(227,154,44,.04));
-    border-color:rgba(227,154,44,.4);
-    transform:translateY(0);
-    animation:rise 3.4s ease-in-out .4s both;
-  }
-  .result.you .pin{background:var(--amber);color:var(--ink);border-color:var(--amber-deep)}
-  .result.you .who small{color:var(--amber-deep)}
-  .result .stars{font-size:.72rem;color:var(--amber);letter-spacing:1px}
-  @keyframes rise{
-    0%{transform:translateY(120px);opacity:0}
-    45%{transform:translateY(120px);opacity:0}
-    72%{transform:translateY(-6px);opacity:1}
-    100%{transform:translateY(0);opacity:1}
-  }
-  .sc-tag{
-    position:absolute;right:20px;top:64px;z-index:3;
-    background:var(--pine);color:#fff;font-family:var(--mono);font-size:.66rem;
-    letter-spacing:.08em;text-transform:uppercase;padding:6px 11px;border-radius:20px;
-    display:inline-flex;align-items:center;gap:7px;
-    box-shadow:0 8px 20px -10px rgba(13,55,47,.8);
-    animation:pop .5s ease 2.4s both;
-  }
-  .sc-tag::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--amber)}
-  @keyframes pop{from{opacity:0;transform:scale(.8) translateY(6px)}to{opacity:1;transform:none}}
-
-  /* ---------- generic section ---------- */
-  .section{padding:88px 0}
-  .section-head{max-width:60ch;margin-bottom:48px}
-  .section-head h2{margin:16px 0 14px}
-
-  /* problem band */
-  .band{background:var(--ink);color:#fff}
-  .band .lede{color:rgba(255,255,255,.72)}
-  .band-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:50px;align-items:center}
-  .band h2{color:#fff;font-size:clamp(1.8rem,3.6vw,2.5rem)}
-  .band .hl{color:var(--amber)}
-  .lostlist{display:flex;flex-direction:column;gap:2px}
-  .lostrow{display:flex;align-items:flex-start;gap:14px;padding:15px 0;border-top:1px solid rgba(255,255,255,.12)}
-  .lostrow:last-child{border-bottom:1px solid rgba(255,255,255,.12)}
-  .lostrow .x{color:var(--amber);font-family:var(--mono);flex:none;margin-top:1px}
-  .lostrow p{color:rgba(255,255,255,.82);font-size:.98rem}
-
-  /* packages */
-  .tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
-  .tier{
-    background:var(--card);border:1px solid var(--line);border-radius:18px;
-    padding:30px 26px;display:flex;flex-direction:column;position:relative;
-    transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;
-  }
-  .tier:hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(18,74,64,.35)}
-  .tier.feat{border-color:var(--pine);box-shadow:0 26px 50px -28px rgba(18,74,64,.4)}
-  .tier.feat::before{
-    content:"Most chosen";position:absolute;top:-12px;left:26px;
-    background:var(--pine);color:#fff;font-family:var(--mono);font-size:.66rem;
-    letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:20px;
-  }
-  .tier .tname{font-family:var(--display);font-weight:700;font-size:1.3rem}
-  .tier .tsub{color:var(--muted);font-size:.9rem;margin:6px 0 20px;min-height:2.4em}
-  .price{display:flex;align-items:baseline;gap:6px}
-  .price .amt{font-family:var(--display);font-weight:800;font-size:2.4rem;letter-spacing:-.03em}
-  .price .cur{font-family:var(--display);font-weight:700;font-size:1.2rem;color:var(--muted)}
-  .permo{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin:6px 0 22px}
-  .feats{list-style:none;display:flex;flex-direction:column;gap:11px;margin-bottom:26px;flex:1}
-  .feats li{display:flex;align-items:flex-start;gap:10px;font-size:.92rem;color:#2b3a34}
-  .feats li svg{flex:none;margin-top:3px;color:var(--pine)}
-  .tier .btn{width:100%;justify-content:center}
-
-  /* process */
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
-  .step{position:relative;padding-top:26px}
-  .step .num{font-family:var(--mono);font-size:.82rem;color:var(--amber-deep);letter-spacing:.1em}
-  .step .bar{height:3px;background:var(--line);border-radius:3px;margin:12px 0 18px;position:relative;overflow:hidden}
-  .step .bar::after{content:"";position:absolute;inset:0;width:0;background:var(--pine);border-radius:3px;transition:width .8s ease}
-  .step.seen .bar::after{width:100%}
-  .step h3{font-size:1.12rem;font-weight:700;margin-bottom:8px}
-  .step p{font-size:.92rem;color:var(--muted)}
-
-  /* risk callout */
-  .risk{background:var(--pine);color:#fff;border-radius:22px;padding:52px 44px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
-  .risk h2{color:#fff}
-  .risk p{color:rgba(255,255,255,.8);margin-top:14px;max-width:46ch}
-  .riskbadge{justify-self:end;text-align:center;font-family:var(--display)}
-  .riskbadge .big{font-size:clamp(3rem,8vw,5rem);font-weight:800;line-height:.9;color:var(--amber)}
-  .riskbadge .cap{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-top:10px}
-
-  /* work / case study */
-  .case{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--card)}
-  .case-media{background:linear-gradient(150deg,var(--pine),var(--pine-deep));padding:40px;display:flex;flex-direction:column;justify-content:space-between;color:#fff;min-height:100%}
-  .case-media .kicker{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)}
-  .browser{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;overflow:hidden;margin:22px 0}
-  .browser .top{display:flex;gap:6px;padding:11px 13px;border-bottom:1px solid rgba(255,255,255,.12)}
-  .browser .top i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.28)}
-  .browser .url{margin-left:10px;font-family:var(--mono);font-size:.72rem;color:rgba(255,255,255,.66);align-self:center}
-  .browser .screen{padding:20px}
-  .browser .screen .logo{font-family:var(--display);font-weight:700;font-size:1.05rem}
-  .browser .screen .h{height:10px;border-radius:5px;background:rgba(255,255,255,.22);margin-top:12px}
-  .browser .screen .h.s{width:60%;background:rgba(255,255,255,.14)}
-  .browser .screen .row{display:flex;gap:8px;margin-top:16px}
-  .browser .screen .chip{flex:1;height:38px;border-radius:8px;background:rgba(227,154,44,.28)}
-  .browser .shot{background:#0d372f;line-height:0;position:relative}
-  .browser .shot img{width:100%;display:block;aspect-ratio:16/10;object-fit:cover;object-position:top center}
-  .browser .shot-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-height:230px;background:linear-gradient(160deg,#0f4238,#0d372f);color:rgba(255,255,255,.7);text-align:center;padding:30px;line-height:1.4}
-  .browser .shot-ph svg{color:var(--amber);opacity:.9}
-  .browser .shot-ph span{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em}
-  .case-media .live{font-family:var(--mono);font-size:.82rem;display:inline-flex;align-items:center;gap:8px;color:#fff}
-  .case-body{padding:40px}
-  .case-body h3{font-size:1.5rem;font-weight:700;margin:10px 0 12px}
-  .case-body>p{color:var(--muted);margin-bottom:20px}
-  .case-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
-  .case-tags span{font-family:var(--mono);font-size:.72rem;color:var(--pine);background:rgba(18,74,64,.07);border:1px solid rgba(18,74,64,.14);padding:5px 10px;border-radius:20px}
-  .quote{border-left:3px solid var(--amber);padding:4px 0 4px 20px;margin-bottom:22px}
-  .quote p{font-size:1.02rem;color:var(--ink);font-style:italic}
-  .quote cite{display:block;margin-top:10px;font-style:normal;font-family:var(--mono);font-size:.78rem;color:var(--muted)}
-
-  /* about */
-  .about{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}
-  .about-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:34px;text-align:center}
-  .avatar{width:96px;height:96px;border-radius:22px;margin:0 auto 18px;background:var(--pine);color:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:1.8rem;box-shadow:0 18px 34px -18px rgba(18,74,64,.6)}
-  .about-card .nm{font-family:var(--display);font-weight:700;font-size:1.2rem}
-  .about-card .rl{font-family:var(--mono);font-size:.76rem;color:var(--muted);letter-spacing:.06em;margin-top:4px}
-  .about-card .b3{margin-top:18px;padding-top:18px;border-top:1px solid var(--line);font-size:.86rem;color:var(--muted);line-height:1.7}
-  .about-body h2{margin:14px 0 18px}
-  .about-body p{color:#33433c;margin-bottom:16px;max-width:60ch}
-  .about-body p strong{color:var(--ink);font-weight:600}
-
-  /* contact */
-  .contact{background:var(--ink);color:#fff}
-  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
-  .contact h2{color:#fff}
-  .contact .lede{color:rgba(255,255,255,.72);margin-top:14px}
-  .contact .direct{margin-top:28px;display:flex;flex-direction:column;gap:14px}
-  .contact .direct a{display:inline-flex;align-items:center;gap:12px;font-family:var(--mono);font-size:.92rem;color:#fff}
-  .contact .direct a svg{flex:none;color:var(--amber)}
-  .form{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:28px}
-  .field{margin-bottom:18px}
-  .field label{display:block;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:9px}
-  .field input,.field select,.field textarea{
-    width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);
-    border-radius:10px;padding:13px 14px;color:#fff;font-family:var(--body);font-size:.95rem;
-  }
-  .field textarea{resize:vertical;min-height:84px;line-height:1.5}
-  .field input::placeholder,.field textarea::placeholder{color:rgba(255,255,255,.4)}
-  .field input:focus,.field select:focus,.field textarea:focus{outline:2px solid var(--amber);outline-offset:1px;border-color:transparent}
-  .field select option{color:#16211D}
-  .form-thanks{background:rgba(255,255,255,.04);border:1px solid var(--amber);border-radius:18px;padding:28px}
-  .form-thanks h3{font-family:var(--display);font-weight:700;font-size:1.3rem;color:var(--amber)}
-  .form-thanks p{color:rgba(255,255,255,.85);margin-top:8px}
-  .seg{display:flex;gap:8px;flex-wrap:wrap}
-  .seg button{flex:1;min-width:130px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.16);color:rgba(255,255,255,.82);border-radius:10px;padding:11px;font-family:var(--body);font-size:.86rem;cursor:pointer;transition:.15s}
-  .seg button[aria-pressed="true"]{background:var(--amber);color:var(--ink);border-color:var(--amber);font-weight:600}
-  .form .btn-amber{width:100%;justify-content:center;margin-top:6px}
-  .formnote{font-family:var(--mono);font-size:.72rem;color:rgba(255,255,255,.5);margin-top:14px;text-align:center}
-
-  /* footer */
-  footer{background:var(--pine-deep);color:rgba(255,255,255,.7);padding:44px 0}
-  .foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
-  .foot .brand{color:#fff}
-  .foot .mark{background:rgba(255,255,255,.12)}
-  .foot small{font-family:var(--mono);font-size:.76rem}
-
-  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
-  .reveal.seen{opacity:1;transform:none}
-
-  @media(max-width:920px){
-    .hero-grid,.band-grid,.about,.contact-grid,.case{grid-template-columns:1fr}
-    .tiers{grid-template-columns:1fr;max-width:440px;margin:0 auto}
-    .steps{grid-template-columns:1fr 1fr}
-    .risk{grid-template-columns:1fr;text-align:left;padding:40px 30px}
-    .riskbadge{justify-self:start}
-    .case-media{min-height:auto}
-    .navlinks{
-      position:absolute;top:70px;left:0;right:0;background:var(--paper);
-      border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;
-      gap:0;padding:8px 28px 20px;display:none;
-    }
-    .navlinks.open{display:flex}
-    .navlinks a.lnk{padding:13px 0;border-bottom:1px solid var(--line)}
-    .navlinks .btn{margin-top:14px;justify-content:center}
-    .navtoggle{display:block}
-  }
-  @media(max-width:520px){
-    .steps{grid-template-columns:1fr}
-    .hero{padding:44px 0 60px}
-    .section{padding:64px 0}
-  }
-  @media(prefers-reduced-motion:reduce){
-    *{animation:none!important;transition:none!important}
-    .reveal{opacity:1;transform:none}
-    .step .bar::after{width:100%}
-  }
-</style>
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"WB3 Ventures",
+  "description":"Web design, Google Business Profile setup, and local SEO for small businesses in Greenville, SC and the Upstate.",
+  "url":"https://wb3ventures.com/",
+  "email":"WB3_ventures@outlook.com",
+  "telephone":"+1-864-438-3702",
+  "priceRange":"$597–$1,497",
+  "areaServed":[
+    {"@type":"City","name":"Greenville, SC"},
+    {"@type":"AdministrativeArea","name":"Upstate South Carolina"}
+  ],
+  "serviceType":["Web Design","Local SEO","Google Business Profile Setup"]
+}
+</script>
 </head>
 <body>
 
-<header>
+<header class="site">
   <div class="wrap nav">
-    <a href="#top" class="brand"><span class="mark">WB3</span>WB3 Ventures</a>
+    <a href="index.html" class="brand"><span class="mark">WB3</span>WB3 Ventures</a>
     <nav class="navlinks" id="menu">
-      <a class="lnk" href="#work">Work</a>
-      <a class="lnk" href="#pricing">Pricing</a>
-      <a class="lnk" href="#process">How it works</a>
-      <a class="lnk" href="#about">About</a>
-      <a class="btn btn-amber" href="#contact">Get started</a>
+      <a class="lnk" href="web-design.html">Web Design</a>
+      <a class="lnk" href="local-seo.html">Local SEO</a>
+      <a class="lnk" href="pricing.html">Pricing</a>
+      <a class="lnk" href="work.html">Work</a>
+      <a class="lnk" href="about.html">About</a>
+      <a class="btn btn-amber" href="contact.html">Get started</a>
     </nav>
     <button class="navtoggle" id="toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
 
-<main id="top">
-
-  <!-- HERO -->
+<main>
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="wrap hero-inner">
-      <span class="eyebrow amber">Built before you pay</span>
-      <h1>Your website, built in days.<br><em>Not months.</em></h1>
-      <p class="lede">Custom websites, Google Business Profile setup, and local SEO for small businesses. You see the finished site before you pay a cent, and the customers already searching for you finally find you first.</p>
+      <span class="eyebrow amber">Greenville, SC &middot; Built before you pay</span>
+      <h1>Web design and local SEO for <em>Greenville</em> small businesses.</h1>
+      <p class="lede">I build custom websites, set up your Google Business Profile, and get you showing up when Upstate customers search. You see the finished site before you pay a cent.</p>
       <div class="hero-cta">
-        <a href="#contact" class="btn btn-amber">Start my site <span class="arw">&rarr;</span></a>
-        <a href="#work" class="btn btn-pale">See recent work</a>
+        <a href="contact.html" class="btn btn-amber">Start my site <span class="arw">&rarr;</span></a>
+        <a href="work.html" class="btn btn-pale">See recent work</a>
       </div>
       <div class="microtrust">
         <span>No payment up front</span>
@@ -393,312 +67,154 @@
     </div>
   </section>
 
-  <!-- PROBLEM BAND -->
-  <section class="band">
-    <div class="wrap section band-grid">
-      <div>
+  <section class="section band">
+    <div class="wrap">
+      <div class="section-head" style="margin-bottom:0">
         <span class="eyebrow pale">The quiet problem</span>
-        <h2 style="margin-top:16px">Most people look you up before they ever call. <span class="hl">A lot of them never do.</span></h2>
-        <p class="lede" style="margin-top:16px">You don&rsquo;t get a notification for the customer who checked your website, wasn&rsquo;t sure, and quietly called someone else. It just shows up as a slower month.</p>
-      </div>
-      <div class="lostlist">
-        <div class="lostrow"><span class="x">&#10005;</span><p>No website, so people assume you&rsquo;re small, gone, or not worth the risk.</p></div>
-        <div class="lostrow"><span class="x">&#10005;</span><p>Not in the top three Google results with the map, so they never see you.</p></div>
-        <div class="lostrow"><span class="x">&#10005;</span><p>An old site that breaks on a phone, right where nearly everyone is looking.</p></div>
+        <h2 style="margin:16px 0 14px">Most Greenville customers look you up before they call. <span class="hl">A lot of them never do.</span></h2>
+        <p class="lede">If you don't have a website, you're not in the top three Google results with the map, or your old site breaks on a phone, people quietly call the business down the road instead. You never even find out it happened.</p>
       </div>
     </div>
   </section>
 
-  <!-- PRICING -->
-  <section class="section" id="pricing">
+  <section class="section">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow">Website packages</span>
-        <h2>Three straightforward packages.</h2>
-        <p class="lede">Pick the level that fits. Every one is built and shown to you before you pay a cent.</p>
+        <span class="eyebrow">What I do</span>
+        <h2>Everything you need to get found and get booked.</h2>
       </div>
-      <div class="tiers">
-
-        <div class="tier">
-          <div class="tname">Basic</div>
-          <div class="tsub">A clean, professional digital business card.</div>
-          <div class="price"><span class="cur">$</span><span class="amt">597</span></div>
-          <div class="permo">then $39/month</div>
-          <ul class="feats">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Up to 5 pages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Mobile-friendly design</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Basic on-page SEO</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Hosting &amp; SSL included</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>2 content updates / month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>1 revision before launch</li>
-          </ul>
-          <a href="#contact" class="btn btn-ghost" data-pick="Basic — $597">Choose Basic</a>
+      <div class="grid3">
+        <div class="fcard reveal">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
+          <h3>Web Design</h3>
+          <p>Fast, mobile-first websites built around your business, not a template. Done before you pay.</p>
+          <a class="more" href="web-design.html">Web design in Greenville &rarr;</a>
         </div>
-
-        <div class="tier feat">
-          <div class="tname">Standard</div>
-          <div class="tsub">Get found when customers search.</div>
-          <div class="price"><span class="cur">$</span><span class="amt">997</span></div>
-          <div class="permo">then $59/month</div>
-          <ul class="feats">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Up to 8 pages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Custom design, mobile-friendly</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Full on-page SEO</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Keyword strategy</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Google Business Profile setup</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>4 content updates / month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>2 revisions before launch</li>
-          </ul>
-          <a href="#contact" class="btn btn-amber" data-pick="Standard — $997">Choose Standard</a>
+        <div class="fcard reveal">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 2a8 8 0 0 0-8 8c0 5 8 12 8 12s8-7 8-12a8 8 0 0 0-8-8Z"/></svg></div>
+          <h3>Local SEO &amp; Google</h3>
+          <p>Google Business Profile setup and local SEO so you show up in the Greenville map pack.</p>
+          <a class="more" href="local-seo.html">Local SEO in Greenville &rarr;</a>
         </div>
-
-        <div class="tier">
-          <div class="tname">Pro</div>
-          <div class="tsub">Dominate local search.</div>
-          <div class="price"><span class="cur">$</span><span class="amt">1,497</span></div>
-          <div class="permo">then $89/month</div>
-          <ul class="feats">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Up to 12 pages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Everything in Standard</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Local SEO to compete for the map pack</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Citations &amp; directory listings</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>2 SEO articles / month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Monthly performance report</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Unlimited content updates</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>3 revisions &amp; priority support</li>
-          </ul>
-          <a href="#contact" class="btn btn-ghost" data-pick="Pro — $1,497">Choose Pro</a>
+        <div class="fcard reveal">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3>Clear Pricing</h3>
+          <p>Three straightforward packages, listed right here. No quotes to chase, no surprises.</p>
+          <a class="more" href="pricing.html">See the packages &rarr;</a>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- PROCESS -->
-  <section class="section" id="process" style="padding-top:0">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">How it works</span>
-        <h2>Built first. You pay when you&rsquo;re happy.</h2>
-        <p class="lede">No deposit, no obligation. You see the real, finished website before any money changes hands.</p>
-      </div>
-      <div class="steps">
-        <div class="step"><div class="num">STEP 01</div><div class="bar"></div><h3>Pick a tier</h3><p>Send your business name, a way to reach you, and the package you want.</p></div>
-        <div class="step"><div class="num">STEP 02</div><div class="bar"></div><h3>I build it</h3><p>The full site, designed and built in as little as a few days. No payment yet.</p></div>
-        <div class="step"><div class="num">STEP 03</div><div class="bar"></div><h3>You review</h3><p>See the finished site and request tweaks based on your tier.</p></div>
-        <div class="step"><div class="num">STEP 04</div><div class="bar"></div><h3>Launch</h3><p>Approve and pay. It goes live at your domain, registered in your name.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- RISK -->
   <section class="section" style="padding-top:0">
     <div class="wrap">
-      <div class="risk reveal">
-        <div>
-          <span class="eyebrow pale">Zero risk, zero obligation</span>
-          <h2 style="margin-top:14px">If you don&rsquo;t like what I built, you owe nothing.</h2>
-          <p>That&rsquo;s the whole deal. You judge the real website in front of you, not a pitch or a mockup. It only goes live, and you only pay, once it&rsquo;s something you&rsquo;re proud to send people to.</p>
-        </div>
-        <div class="riskbadge">
-          <div class="big">$0</div>
-          <div class="cap">Up front. Every time.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WORK -->
-  <section class="section" id="work" style="padding-top:0">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Recent work</span>
-        <h2>A real site, doing a real job.</h2>
-        <p class="lede">Every build is made to earn trust before a stranger ever picks up the phone. Here&rsquo;s one of them.</p>
-      </div>
-
       <div class="case reveal">
         <div class="case-media">
-          <div class="kicker">Live build</div>
+          <div class="kicker">Live build &middot; Greenville area</div>
           <div class="browser">
             <div class="top"><i></i><i></i><i></i><span class="url">early-bloomers.com</span></div>
-            <div class="shot">
-              <img src="Images/EarlyBloomers.jpg" alt="Early Bloomers homepage, built by WB3 Ventures" loading="lazy">
-            </div>
+            <div class="shot"><img src="Images/EarlyBloomers.jpg" alt="Early Bloomers homepage, built by WB3 Ventures" loading="lazy"></div>
           </div>
           <a class="live" href="https://early-bloomers.com" target="_blank" rel="noopener">early-bloomers.com &rarr;</a>
         </div>
         <div class="case-body">
           <div class="kicker" style="font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--sage)">Early Bloomers LLC</div>
-          <h3>A multi-page site built to turn worried visitors into calls.</h3>
-          <p>A growing local practice needed a website that felt as trustworthy and organized as they are. I built a clear, multi-page site with plain-language content and local SEO aimed at every area they serve, so the right people find them and know exactly what to do next.</p>
-          <div class="case-tags">
-            <span>Custom multi-page build</span>
-            <span>Mobile-friendly</span>
-            <span>Local SEO</span>
-            <span>Clear call to action</span>
-          </div>
+          <h3>A multi-page site built to turn visitors into calls.</h3>
+          <p>A Greenville-area practice needed a website as trustworthy and organized as they are. I built a clear, multi-page site with plain-language content and local SEO across three counties.</p>
           <div class="quote">
-            <p>&ldquo;From start to finish, the process was smooth and professional. WB3 created a site that&rsquo;s visually appealing, easy to navigate, and thorough. It&rsquo;s a polished, professional presence I&rsquo;m proud to share with clients. They brought my vision to life.&rdquo;</p>
+            <p>&ldquo;A polished, professional presence I'm proud to share with clients. They brought my vision to life.&rdquo;</p>
             <cite>Michelle Lopez &mdash; Owner, Early Bloomers LLC</cite>
           </div>
-          <a href="https://early-bloomers.com" target="_blank" rel="noopener" class="btn btn-ghost">Visit the live site <span class="arw">&rarr;</span></a>
+          <a href="work.html" class="btn btn-ghost">See the full case study <span class="arw">&rarr;</span></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="section" id="about" style="padding-top:0">
-    <div class="wrap about">
-      <div class="about-card reveal">
-        <div class="avatar">MW</div>
-        <div class="nm">Michael Wakefield</div>
-        <div class="rl">Founder, WB3 Ventures</div>
-        <div class="b3"><strong>Why &ldquo;WB3&rdquo;?</strong><br>The W is Wakefield. The B3 is my three kids, whose names all start with B.</div>
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">How it works</span>
+        <h2>Built first. You pay when you're happy.</h2>
+        <p class="lede">No deposit, no obligation. You see the real, finished website before any money changes hands.</p>
       </div>
-      <div class="about-body">
-        <span class="eyebrow">Who you&rsquo;re working with</span>
-        <h2>The person you call is the person who builds it.</h2>
-        <p>I&rsquo;ve spent more than 15 years in tech as the person people came to when they didn&rsquo;t know how to get something done. Untangling messy systems, fixing what was broken, and putting processes in place that kept running long after I&rsquo;d set them up.</p>
-        <p>That&rsquo;s exactly what I bring to a website. <strong>Plenty of people can make a page look fine on launch day.</strong> What I care about is the site that still loads fast, still works, and is still bringing you customers a year from now.</p>
-        <p>No account managers, no handoffs, no ticket queue. You deal with me, and I build it to last.</p>
+      <div class="steps">
+        <div class="step reveal"><div class="num">STEP 01</div><div class="bar"></div><h3>Pick a tier</h3><p>Send your business name, a way to reach you, and the package you want.</p></div>
+        <div class="step reveal"><div class="num">STEP 02</div><div class="bar"></div><h3>I build it</h3><p>The full site, designed and built in as little as a few days. No payment yet.</p></div>
+        <div class="step reveal"><div class="num">STEP 03</div><div class="bar"></div><h3>You review</h3><p>See the finished site and request tweaks based on your tier.</p></div>
+        <div class="step reveal"><div class="num">STEP 04</div><div class="bar"></div><h3>Launch</h3><p>Approve and pay. It goes live at your domain, in your name.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="section contact" id="contact">
-    <div class="wrap contact-grid">
-      <div>
-        <span class="eyebrow pale">Get started</span>
-        <h2 style="margin-top:14px">Tell me your business name. I&rsquo;ll build the site.</h2>
-        <p class="lede">No payment up front. Send your business name or current website and the package you&rsquo;re leaning toward, and I&rsquo;ll get started. Replies usually within one business day.</p>
-        <div class="direct">
-          <a href="mailto:WB3_ventures@outlook.com">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-            WB3_ventures@outlook.com
-          </a>
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="risk reveal">
+        <div>
+          <span class="eyebrow pale">Zero risk, zero obligation</span>
+          <h2 style="margin-top:14px">If you don't like what I built, you owe nothing.</h2>
+          <p>You judge the real website in front of you, not a pitch. It only goes live, and you only pay, once it's something you're proud to send people to.</p>
         </div>
-      </div>
-
-      <div class="formcol">
-        <form id="wb3form" class="form" action="https://formsubmit.co/ajax/WB3_ventures@outlook.com" method="POST">
-          <input type="hidden" name="_subject" value="New site request from wb3ventures.com">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
-          <div class="field">
-            <label for="name">Your name</label>
-            <input id="name" name="name" type="text" placeholder="First and last" required>
-          </div>
-          <div class="field">
-            <label for="email">Your email</label>
-            <input id="email" name="email" type="email" placeholder="you@email.com" required>
-          </div>
-          <div class="field">
-            <label for="business">Business name</label>
-            <input id="business" name="business" type="text" placeholder="e.g. Palmetto Plumbing" required>
-          </div>
-          <div class="field">
-            <label for="requestType">Do you have a website already?</label>
-            <select id="requestType" name="request_type" required>
-              <option value="" disabled selected>Choose one</option>
-              <option value="New site build">No — I need a brand new site</option>
-              <option value="Rebuild / redesign of existing site">Yes — I want my existing site rebuilt</option>
-              <option value="Not sure yet">Not sure yet</option>
-            </select>
-          </div>
-          <div class="field" id="websiteUrlWrap" style="display:none">
-            <label for="currentWebsite">Your current website address</label>
-            <input id="currentWebsite" name="current_website" type="text" placeholder="yourbusiness.com">
-          </div>
-          <div class="field">
-            <label for="pkg">Which package?</label>
-            <select id="pkg" name="package" required>
-              <option value="" disabled selected>Choose one</option>
-              <option value="Basic — $597">Basic — $597</option>
-              <option value="Standard — $997">Standard — $997</option>
-              <option value="Pro — $1,497">Pro — $1,497</option>
-              <option value="Not sure yet">Not sure yet</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="message">Anything else? (optional)</label>
-            <textarea id="message" name="message" rows="3" placeholder="Tell me what you're after"></textarea>
-          </div>
-          <button type="submit" class="btn btn-amber">Send it to Michael <span class="arw">&rarr;</span></button>
-          <div class="formnote" id="wb3note">Goes straight to Michael&rsquo;s inbox. Nothing is charged.</div>
-        </form>
-        <div id="wb3thanks" class="form-thanks" style="display:none">
-          <h3>Got it &mdash; thank you.</h3>
-          <p>Your request came through. Michael will be in touch within one business day.</p>
-        </div>
+        <div class="riskbadge"><div class="big">$0</div><div class="cap">Up front. Every time.</div></div>
       </div>
     </div>
   </section>
 
+  <section class="section tight">
+    <div class="wrap">
+      <span class="eyebrow">Service area</span>
+      <h2 style="margin:14px 0 12px">Serving Greenville and the Upstate.</h2>
+      <p class="lede" style="margin-bottom:6px">Based in the Upstate and working with small businesses across the region:</p>
+      <div class="areas">
+        <span>Greenville</span><span>Greer</span><span>Simpsonville</span><span>Mauldin</span>
+        <span>Taylors</span><span>Easley</span><span>Anderson</span><span>Spartanburg</span><span>Pickens</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section ctaband">
+    <div class="wrap">
+      <h2>Tell me your business name. I'll build the site.</h2>
+      <p>No payment up front. Send your business name or current website and the package you're leaning toward, and I'll get started.</p>
+      <a href="contact.html" class="btn btn-amber">Get started <span class="arw">&rarr;</span></a>
+    </div>
+  </section>
 </main>
 
-<footer>
-  <div class="wrap foot">
-    <a href="#top" class="brand"><span class="mark">WB3</span>WB3 Ventures</a>
-    <small>Websites &amp; local marketing for small businesses.</small>
-    <small>&copy; 2026 WB3 Ventures LLC</small>
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="brand"><span class="mark">WB3</span>WB3 Ventures</a>
+        <p style="margin-top:8px">Web design and local SEO for small businesses in Greenville, SC and across the Upstate.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="web-design.html">Web Design</a>
+        <a href="local-seo.html">Local SEO</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="foot-col">
+        <h4>Get in touch</h4>
+        <a href="mailto:WB3_ventures@outlook.com">WB3_ventures@outlook.com</a>
+        <a href="tel:+18644383702">(864) 438-3702</a>
+        <a href="contact.html">Start a project</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 WB3 Ventures LLC &middot; Greenville, SC</span>
+      <span>Built before you pay.</span>
+    </div>
   </div>
 </footer>
 
 <script>
-  // mobile nav
-  var toggle=document.getElementById('toggle'),menu=document.getElementById('menu');
-  toggle.addEventListener('click',function(){
-    var open=menu.classList.toggle('open');
-    toggle.setAttribute('aria-expanded',open);
-  });
-  menu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');toggle.setAttribute('aria-expanded',false);});});
-
-  // clicking a package preselects it in the form
-  var pkgSelect=document.getElementById('pkg');
-  document.querySelectorAll('[data-pick]').forEach(function(el){
-    el.addEventListener('click',function(){pkgSelect.value=el.getAttribute('data-pick');});
-  });
-
-  // reveals + process bars
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(en){
-      if(en.isIntersecting){en.target.classList.add('seen');io.unobserve(en.target);}
-    });
-  },{threshold:.2});
-  document.querySelectorAll('.reveal,.step').forEach(function(el){io.observe(el);});
-
-  // contact form: conditional "current website" field + AJAX submit
-  var wb3form=document.getElementById('wb3form');
-  if(wb3form){
-    var reqType=document.getElementById('requestType');
-    var urlWrap=document.getElementById('websiteUrlWrap');
-    var curSite=document.getElementById('currentWebsite');
-    var note=document.getElementById('wb3note');
-    var thanks=document.getElementById('wb3thanks');
-    reqType.addEventListener('change',function(){
-      var show=reqType.value==='Rebuild / redesign of existing site';
-      urlWrap.style.display=show?'block':'none';
-      curSite.required=show;
-      if(!show){curSite.value='';}
-    });
-    wb3form.addEventListener('submit',function(e){
-      e.preventDefault();
-      var btn=wb3form.querySelector('button[type="submit"]');
-      btn.disabled=true;btn.textContent='Sending…';
-      fetch(wb3form.action,{method:'POST',body:new FormData(wb3form),headers:{'Accept':'application/json'}})
-        .then(function(r){return r.json();})
-        .then(function(){wb3form.style.display='none';note.style.display='none';thanks.style.display='block';})
-        .catch(function(){
-          btn.disabled=false;btn.innerHTML='Send it to Michael <span class="arw">&rarr;</span>';
-          note.textContent='Something went wrong sending that. Please email WB3_ventures@outlook.com directly.';
-          note.style.color='#f0a35a';
-        });
-    });
-  }
+  var t=document.getElementById('toggle'),m=document.getElementById('menu');
+  t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o);});
+  var io=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){en.target.classList.add('seen');io.unobserve(en.target);}});},{threshold:.15});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
 </script>
 </body>
 </html>
